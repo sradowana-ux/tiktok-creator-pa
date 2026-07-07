@@ -1,7 +1,3 @@
-# TikTok Creator PA
-
-AI-powered TikTok creator assistant — viral captions, hooks, hashtags, content calendars, trend analysis.
-
 # 🎵 TikTok Creator PA
 
 > AI-powered personal assistant for TikTok creators — generate viral captions, hooks, hashtags, content calendars, scripts, and trend analysis using Groq's free LLM API.
@@ -52,10 +48,16 @@ tiktok_analysis.ipynb contains a full exploratory analysis:
 - Caption sentiment vs engagement — DistilBERT sentiment analysis
 - Video duration analysis — 15s / 30s / 60s / 90s / 180s comparison
 
+## ⚠️ Limitations
+
+- Generated captions, hooks, and scripts come from a general-purpose LLM (Llama 3.3 70B) — treat them as strong drafts to edit, not guaranteed-viral content.
+- pytrends is an unofficial Google Trends client and can be rate-limited, so the Trend Explorer may fail intermittently.
+- Engagement scoring compares against static niche benchmarks rather than live TikTok data (no official TikTok API integration).
+
 ## 🎯 Why I Built This
 
 TikTok's algorithm rewards consistency and quality — but most solo creators struggle with writing hooks, researching hashtags, and planning content every day. This tool automates the repetitive parts so you can focus on filming.
 
 Built as part of my data analysis / ML portfolio targeting TikTok & Spotify internships.
 
-*University of Hull · 2026*Run: python tiktok_creator_pa.py
+*University of Hull · 2026*
