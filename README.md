@@ -58,6 +58,6 @@ tiktok_analysis.ipynb contains a full exploratory analysis:
 
 TikTok's algorithm rewards consistency and quality — but most solo creators struggle with writing hooks, researching hashtags, and planning content every day. This tool automates the repetitive parts so you can focus on filming.
 
-Built as part of my data analysis / ML portfolio targeting TikTok & Spotify internships.
+Part of my ML portfolio — proof that shipping fun things seriously still counts as shipping.
 
 *University of Hull · 2026*
